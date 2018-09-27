@@ -1,24 +1,19 @@
-# README
+# Todo list API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple todo list api made with Ruby on Rails for a technical test for Javry.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+* Ruby >= 2.5.1
+* Rails >= 5.2.1
+* mySql server
 
-* System dependencies
+## Installation
 
-* Configuration
+* Clone the github repository
 
-* Database creation
+``` 
+     $ git clone https://github.com/AdrienNini/RoR-Todo-list-API-Javry.git 
+```
+* 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
