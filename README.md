@@ -15,7 +15,7 @@ Simple todo list api made with Ruby on Rails for a technical test for Javry.
 ``` 
 $ git clone https://github.com/AdrienNini/RoR-Todo-list-API-Javry.git 
 ```
-* __Warning !__ You may need to change to database configuration depending on your install. In the file `config/database.yml` :
+* __Warning !__ You may need to change the database configuration depending on your install. In the file `config/database.yml` :
 
 ```YAML
 default: &default   
@@ -37,7 +37,7 @@ $ rake db:setup
 $ rails s
 ```
 
-* Open `localhost:3000` on your web browser
+* Open `localhost:3000` in your web browser
 
 ## References used
 
