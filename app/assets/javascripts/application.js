@@ -70,7 +70,7 @@ function createItem(item) {
             ${item.title}
         </div>
         <div class="time" ` + (item.done ? '' : "hidden") +  `>
-            ` + (item.done ? item.done_at : '') + `
+            ` + (item.done ? "finished the " + new Date(item.done_at).toLocaleDateString() : '') + `
         </div>
         <div class="delete">
             <button data-item-id="${item.id}">X</button>
@@ -106,7 +106,7 @@ function swapStatus(evt) {
             document.querySelector('#item'+item.id).classList.add('done')
             let elem = document.querySelector('#item'+item.id+' .time')
             elem.hidden = false
-            elem.innerHTML = item.done_at
+            elem.innerHTML = "finished the " + new Date(item.done_at).toLocaleDateString()
             document.querySelector('#checkbox'+item.id).checked = true
         } else {
             document.querySelector('#item'+item.id).classList.remove('done')
